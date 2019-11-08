@@ -1,0 +1,13 @@
+resources:
+- name: matcha-repo
+  type: git
+  source:
+    uri: git@github.com:CamilleBC/42-matcha.git
+
+jobs:
+- name: server
+  public: true
+
+- name: client
+  public: true
+
